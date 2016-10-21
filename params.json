@@ -1,0 +1,6 @@
+{
+  "name": "Red-Lang Study",
+  "tagline": "プログラミング言語 Red 学習用ページ",
+  "body": "# プログラミング言語Redの学習用ページです。\r\n## Red公式ブログ\r\nhttp://www.red-lang.org/\r\n## RedのGithubリポジトリ\r\nhttps://github.com/red/red\r\n## RedのVisual Studio Code用の拡張機能はこちら\r\nhttps://marketplace.visualstudio.com/items?itemName=red-auto.red",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
