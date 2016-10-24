@@ -1,7 +1,7 @@
 Red [
     Title: "csv-picker"
     Author: "koba-yu"
-	File: %csv-picker.red
+    File: %csv-picker.red
 ]
 
 lines: read/lines %sample.csv
