@@ -5,6 +5,6 @@ Red [
 ]
 
 print-hello: func [][ 
-    a: 1
+    a: 1 ; the word 'a' is also used in %include2.red. 'a' is shared in both file.
     print "Hello World!"
 ]
