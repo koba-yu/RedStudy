@@ -1,7 +1,7 @@
 Red [
     Title: "Literal examples"
     Author: koba-yu
-    File: %Literals.red
+    File: %01-literals.red
 ]
 
 ; Red has a bunch of datatype literals
