@@ -8,7 +8,8 @@ temp: "this is function test."
 print temp
 ; this is function test.
 
-; if a word is used inside a function, the changed word can be accessed in outer scope 
+; if a word is used inside a function, the changed word (in this case, 'temp') can be accessed in outer scope
+; * if you want to prevent 'temp' from going out of function, see next example.
 add-one: func [num [integer!] return: [integer!]][
     temp: num + 1  
     temp ; function returns the last value in the block
