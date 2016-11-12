@@ -4,7 +4,8 @@ Red [
     File: %02-word.red
 ]
 
-; a word can hold value
+; a word can hold value. 
+; ':' binds a value to the word, like other languages' assignment operator('=' in most cases).
 test: 1
 print test
 ; console shows 1
