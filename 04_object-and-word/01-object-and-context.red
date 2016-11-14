@@ -1,5 +1,5 @@
 Red [
-    Title: "context sample"
+    Title: "sample of object and context"
     Author: "koba-yu"
 	File: %object-and-context.red    
 ]
@@ -11,7 +11,7 @@ person: make object! [name: "Yu" surname: "Koba"]
 ;     surname: "Koba"
 ; ]
 
-; object field can be accessed as follows.
+; object field can be accessed by 'path syntax' as follows.
 person/name
 ; == "Yu"
 person/surname
@@ -28,8 +28,10 @@ person2: context [name: "Yu" surname: "Koba"]
 person = person2
 ; true
 
-; Certainly it is not equal if some field values are different.
-person/name: "Unknonw"
+; you can also set value on an object field as follows.
+person/name: "unknown"
 ; == "Unknown"
+
+; Certainly it is not equal if any field values are different.
 person = person2
 ; false

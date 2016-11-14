@@ -16,7 +16,7 @@ type? 5%
 ; == percent!
 
 type? "abc"
-;  == string!
+; == string!
 
 type? #"a"
 ; == char!
