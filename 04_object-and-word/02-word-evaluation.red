@@ -10,4 +10,16 @@ number: 5
 number
 ; == 5
 
-; prefixing ' to a word suppresses
+; prefixing ' to a word suppresses to evaluate it.
+; it points not a value but a word itself.
+'number
+; == number
+
+; 'get' function retrieves a value behind a word.
+get 'number
+; == 5
+
+; also 'set' function can set a value to a word
+; below is same as the expression of 'number: 6' 
+set 'number 6
+; == 6
