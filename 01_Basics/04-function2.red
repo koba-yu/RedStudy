@@ -12,7 +12,7 @@ print temp
 ; * if you want to prevent 'temp' from going out of function, see next example.
 add-one: func [num [integer!] return: [integer!]][
     temp: num + 1  
-    temp ; function returns the last value in the block
+    temp
 ]
 
 add-one 3

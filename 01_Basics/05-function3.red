@@ -8,15 +8,14 @@ temp: "this is function test."
 print temp
 ; this is function test.
 
-; 
+; The Word after "/local" refinement gets its scope only inside of the func.
+; It does not change the values outside of the func.
 add-one: func [num [integer!] return: [integer!] /local temp][
     temp: num + 1  
-    temp ; function returns the last value in the block
+    temp
 ]
 
 add-one 3
 
-; this does not print "this is function test." anymore.
-; because the word temp was changed in add-one function.
+; This prints not "4" but "this is function test." 
 print temp
-; this is function test.
