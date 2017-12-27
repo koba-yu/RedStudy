@@ -25,6 +25,6 @@ view/options [
 	cood: text "Drag the two squres!" 300x100
 	return
 	at 5x30 box: base 590x550 white
-	at 5x30 point1: base 10x10 loose on-drag [ apply ]
-	at 20x30 point2: base 10x10 loose on-drag [ apply ]
+	at 5x30 point1: base 10x10 loose on-drag [apply]
+	at 20x30 point2: base 10x10 loose on-drag [apply]
 ] [size: 600x600]

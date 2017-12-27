@@ -10,7 +10,7 @@ dot: charset "."
 none-spaces: [some neither-space-dot]
 ending: [some neither-space-dot "."]
 
-parse "This is a pen." [collect [any[
+parse "This is a pen." [collect [any [
 			keep ending
 			| none-spaces
 			| space

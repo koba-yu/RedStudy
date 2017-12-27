@@ -7,9 +7,9 @@ Red [
 dir: request-dir
 files: read dir
 
-show-file-or-folder: func [ files [block!] ] [
+show-file-or-folder: func [files [block!]] [
 	foreach file files [
-		print [form file "is" either dir? file ["folder"] ["file"] ]
+		print [form file "is" either dir? file ["folder"] ["file"]]
 	]
 ]
 

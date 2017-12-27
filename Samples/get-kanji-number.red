@@ -38,12 +38,12 @@ get-kanji-number: func [num [integer!] return: [string!]] [
 	keta: (length? num-text) + 1 	; 文字列の長さ +1 に桁数のインデックスをセット。
 
 	; パース部分
-	rejoin parse num-text [ collect [any [
+	rejoin parse num-text [collect [any [
 				(keta: keta - 1)	; 1文字処理するごとに桁数を -1 する
 				zero ; 0の場合は常に何もしない
 				| set current one-to-nine end keep (select kansuji-map current) ; 1の位が 1 ～ 9 の場合の処理
 				| one keep (select keta-map keta)	; １の位以外が１の場合の処理
-				| set current two-to-nine keep ( rejoin [ select kansuji-map current select keta-map keta] ) ; その他の場合
+				| set current two-to-nine keep (rejoin [select kansuji-map current select keta-map keta]) ; その他の場合
 			]
 		]
 	]
