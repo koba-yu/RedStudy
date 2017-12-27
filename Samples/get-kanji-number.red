@@ -1,6 +1,6 @@
 Red [
 	Title: "Convert number to Japanese kanji number"
-	Author: "koba-yu"
+	Author: "Koba-yu"
 	File: %get-kanji-number.red
 ]
 

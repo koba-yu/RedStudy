@@ -1,7 +1,7 @@
 Red [
-    Title: "example about function"
-    Author: koba-yu
-    File: %04-function2.red
+	Title: "example about function"
+	Author: "Koba-yu"
+	File: %04-function2.red
 ]
 
 temp: "this is function test."
@@ -11,7 +11,7 @@ print temp
 ; if a word is used inside a function, the changed word (in this case, 'temp') can be accessed in outer scope
 ; * if you want to prevent 'temp' from going out of function, see next example.
 add-one: func [num [integer!] return: [integer!]][
-    temp: num + 1  
+    temp: num + 1
     temp
 ]
 

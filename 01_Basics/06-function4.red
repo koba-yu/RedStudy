@@ -1,7 +1,7 @@
 Red [
-    Title: "example about function"
-    Author: koba-yu
-    File: %06-function4.red
+	Title: "example about function"
+	Author: "Koba-yu"
+	File: %06-function4.red
 ]
 
 temp: "this is function test."
@@ -17,5 +17,5 @@ add-one: function [num [integer!] return: [integer!] ][
 
 add-one 3
 
-; This prints not "4" but "this is function test." 
+; This prints not "4" but "this is function test."
 print temp

@@ -1,7 +1,7 @@
 Red [
-    Title: "do test"
-    Author: koba-yu
-    File: %do-file.red
+	Title: "do test"
+	Author: "Koba-yu"
+	File: %do-file.red
 ]
 
 do %print-hello.red ; introduce content of %print-hello.red

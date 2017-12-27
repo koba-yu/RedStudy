@@ -1,6 +1,6 @@
 Red [
 	Title: "Show files and folders."
-	Author: "koba-yu"
+	Author: "Koba-yu"
 	File: %get-kanji-number.red
 ]
 

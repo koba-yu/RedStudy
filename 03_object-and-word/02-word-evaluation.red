@@ -1,12 +1,12 @@
 Red [
-    Title: "sample about word and its evaluation"
-    Author: "koba-yu"
-	File: %02-word-evaluation.red    
+	Title: "sample about word and its evaluation"
+	Author: "Koba-yu"
+	File: %02-word-evaluation.red
 ]
 
 number: 5
 
-; evaluating a word shows the value behind it.    
+; evaluating a word shows the value behind it.
 number
 ; == 5
 

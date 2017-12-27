@@ -1,10 +1,10 @@
 Red [
-    Title: "sample of object and context"
-    Author: "koba-yu"
-	File: %object-and-context.red    
+	Title: "sample of object and context"
+	Author: "Koba-yu"
+	File: %object-and-context.red
 ]
 
-; 'make object!' can create something like records among popular functional languages. 
+; 'make object!' can create something like records among popular functional languages.
 person: make object! [name: "Yu" surname: "Koba"]
 ; == make object! [
 ;     name: "Yu"

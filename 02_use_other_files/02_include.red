@@ -1,7 +1,7 @@
 Red [
-    Title: "include test"
-    Author: koba-yu
-    File: %include.red
+	Title: "include test"
+	Author: "Koba-yu"
+	File: %include.red
 ]
 
 ; This script should be compiled to run.
